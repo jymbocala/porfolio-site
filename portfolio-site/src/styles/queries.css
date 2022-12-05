@@ -7,7 +7,7 @@
     position: relative;
     left: auto;
     top: auto;
-    gap: 30px;
+    gap: 15px;
     width: auto;
   }
   
@@ -26,6 +26,6 @@
 
 @media (width >= 1200px) {
   .nav-menu {
-    gap: 100px;
+    gap: 40px;
   }
 }

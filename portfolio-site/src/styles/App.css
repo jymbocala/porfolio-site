@@ -129,7 +129,14 @@ a {
 }
 
 .download-btn:active {
-  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 5px 5px 10px -3px #0a2b2b;
+}
+
+.download-btn:hover {
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border: #0F3D3E solid 3px;
 }
 
 /* FOOTER */

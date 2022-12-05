@@ -26,16 +26,21 @@ export default function Header() {
           <li className="nav-item">
             <a href="#" className="nav-link" onClick={toggleHamburger}>Contact Me</a>
           </li>
+          <li className="nav-item">
+          <a href="./Jym_Bocala_CV.pdf" download="Jym_Bocala_CV.pdf" target="_blank">
+          <button className="download-btn" >
+            <i className="ri-download-2-fill download-icon"></i>
+            CV
+          </button>
+        </a>
+          </li>
         </ul>
         <div className="hamburger" onClick={toggleHamburger}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-        <button className="download-btn">
-          <i className="ri-download-2-fill download-icon"></i>
-          CV
-        </button>
+        
       </div>
     </header>
   )
