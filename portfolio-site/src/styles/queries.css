@@ -1,6 +1,6 @@
 @media (width >= 768px) {
   .nav-menu {
-    border: red solid 1px;
+    /* border: red solid 1px; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
