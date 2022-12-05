@@ -1,0 +1,23 @@
+@media (width >= 768px) {
+  .nav-menu {
+    border: red solid 1px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: auto;
+    top: auto;
+    gap: 30px;
+    width: auto;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (width >= 1200px) {
+  .nav-menu {
+    gap: 100px;
+  }
+}
