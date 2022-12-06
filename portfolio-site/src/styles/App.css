@@ -23,11 +23,10 @@ header {
   justify-content: center;
   width: 100vw;
   padding: 0 24px;
-  background-color: #100F0F;
+  background-color: #041C32;
 }
 
 .navbar {
-  /* border: red 1px solid; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,16 +44,72 @@ li {
 }
 
 .nav-link {
-  transition: 0.7s ease;
+  transition: 0.2s ease;
 }
 
 .nav-link:hover {
-  color: #E2DCC8;
+  color: #ECB365;
+  padding-bottom: 5px;
+  border-bottom: #ECB365 solid 3px;
 }
 
-a {
+header a {
   color: white;
   text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  padding: 0;
+  flex-direction: column;
+  background-color: #041C32;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.nav-item {
+  margin: 16px;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ECB365;
+  color: black;
+}
+
+.download-btn:focus {
+  outline: none;
+}
+
+.download-btn:active {
+  box-shadow: inset 5px 5px 10px -3px #0a2b2b;
+}
+
+.download-btn:hover {
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  border: #ECB365 solid 3px;
 }
 
 .bar {
@@ -82,61 +137,6 @@ a {
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-.nav-menu {
-  /* border: 1px red solid; */
-  display: flex;
-  position: fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  padding: 0;
-  flex-direction: column;
-  background-color: #100F0F;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.nav-item {
-  margin: 16px;
-}
-
-.nav-menu.active {
-  left: 0;
-}
-
-.download-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2rem;
-  font-family: 'Karla', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  cursor: pointer;
-  height: 40px;
-  width: 80px;
-  border: none;
-  border-radius: 6px;
-  background-color: #0F3D3E;
-  color: white;
-}
-
-.download-btn:focus {
-  outline: none;
-}
-
-.download-btn:active {
-  box-shadow: inset 5px 5px 10px -3px #0a2b2b;
-}
-
-.download-btn:hover {
-  background-color: transparent;
-  transition: all 0.3s ease-in-out;
-  color: white;
-  border: #0F3D3E solid 3px;
 }
 
 /* FOOTER */
