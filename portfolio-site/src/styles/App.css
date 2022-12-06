@@ -13,7 +13,8 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: #F1F1F1;
+  /* background-color: #F1F1F1; */
+  background-color: white;
 }
 
 /* HEADER */

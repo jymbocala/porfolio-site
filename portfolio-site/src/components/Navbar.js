@@ -15,7 +15,7 @@ export default function Header() {
         <img src="images/jb-logo.png" alt="logo" width={60}/>
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="#" className="nav-link" onClick={toggleHamburger}>Home</a>
+            <a href="#home" className="nav-link" onClick={toggleHamburger}>Home</a>
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link" onClick={toggleHamburger}>Projects</a>

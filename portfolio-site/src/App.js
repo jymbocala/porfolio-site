@@ -1,17 +1,18 @@
 import React from "react";
 import "./styles/App.css";
 import "./styles/queries.css";
-import Footer from "./components/Footer";
 import Header from "./components/Navbar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        {/* <h1>Hello</h1> */}
+        <Hero />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   ) 
 }
