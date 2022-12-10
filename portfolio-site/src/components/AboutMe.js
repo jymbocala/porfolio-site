@@ -6,6 +6,7 @@ export default function AboutMe() {
       <div className="aboutme-inner-container">
         <div className="aboutme--intro">
           <h2 className="aboutme--title">About Me</h2>
+          <h3>A developer based out of Melbourne, Australia</h3>
           <div className="aboutme-paragraphs">
             <p>
               I have a background in highschool teaching, in which I have a

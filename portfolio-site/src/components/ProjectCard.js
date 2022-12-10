@@ -4,7 +4,7 @@ export default function ProjectCard() {
   return (
     <div className="project-card">
       <img />
-      <h3>Project Title</h3>
+      <h4>Project Title</h4>
       <p>Project Description</p>
       <ul>
         <li>Highlight one</li>
