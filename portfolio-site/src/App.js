@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import "./styles/App.css";
-import "./styles/queries.css";
+import "./styles/App.scss";
+import "./styles/queries.scss";
 import Header from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";

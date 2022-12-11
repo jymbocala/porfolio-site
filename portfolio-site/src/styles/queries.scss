@@ -1,4 +1,7 @@
-@media (width >= 768px) {
+$medium: 768px;
+$large: 1200px;
+
+@media screen and (min-width: $medium) {
   .nav-menu {
     /* border: red solid 1px; */
     flex-direction: row;
@@ -24,7 +27,7 @@
   }
 }
 
-@media (width >= 1200px) {
+@media screen and (min-width: $large) {
   .nav-menu {
     gap: 40px;
   }
