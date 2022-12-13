@@ -10,6 +10,9 @@ export default function Hero() {
             <p>Hi, my name is</p>
             <h1 className="hero--name">Jym Bocala</h1>
             <h2>Frontend Developer</h2>
+            {
+             // TODO: Add instagram, LinkedIn, and github icons
+            }
           </div>
         </div>
       </div>
