@@ -3,7 +3,7 @@ $large: 1200px;
 
 @media screen and (min-width: $medium) {
   /* NAV */
-  .nav-menu {
+  .nav__menu {
     /* border: red solid 1px; */
     flex-direction: row;
     justify-content: space-between;

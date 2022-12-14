@@ -11,30 +11,32 @@ export default function Header() {
 
   return (
     <header>
-      <div className="navbar">
-        <img src="images/jb-logo.png" alt="logo" width={60}/>
-        <ul className="nav-menu">
-          <li className="nav-item">
-            <a href="#home" className="nav-link" onClick={toggleHamburger}>Home</a>
+      <div className="nav">
+        <img src="images/jb-logo.png" alt="jb logo" width={60}/>
+
+        <ul className="nav__menu">
+          <li className="menu__item">
+            <a href="#home" className="menu__item-link" onClick={toggleHamburger}>Home</a>
           </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link" onClick={toggleHamburger}>Projects</a>
+          <li className="menu__item">
+            <a href="#" className="menu__item-link" onClick={toggleHamburger}>Projects</a>
           </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link" onClick={toggleHamburger}>About Me</a>
+          <li className="menu__item">
+            <a href="#" className="menu__item-link" onClick={toggleHamburger}>About Me</a>
           </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link" onClick={toggleHamburger}>Contact Me</a>
+          <li className="menu__item">
+            <a href="#" className="menu__item-link" onClick={toggleHamburger}>Contact Me</a>
           </li>
-          <li className="nav-item">
-          <a href="./Jym_Bocala_CV.pdf" download="Jym_Bocala_CV.pdf" target="_blank">
-          <button className="download-btn" >
-            <i className="ri-download-2-fill download-icon"></i>
-            CV
-          </button>
-        </a>
+          <li className="nav__menu-item">
+            <a href="./Jym_Bocala_CV.pdf" className="menu__item-link" download="Jym_Bocala_CV.pdf" target="_blank">
+              <button className="download-btn" >
+                <i className="ri-download-2-fill download-icon"></i>
+                CV
+              </button>
+            </a>
           </li>
         </ul>
+
         <div className="hamburger" onClick={toggleHamburger}>
           <span className="bar"></span>
           <span className="bar"></span>
