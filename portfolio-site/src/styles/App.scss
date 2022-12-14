@@ -30,21 +30,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1400px;
+  width: 100vw;
   min-height: 6rem;
 }
 
 .nav__menu {
+  // border: red solid 1px;
   display: flex;
   align-items: center;
   position: fixed;
   left: -100%;
   top: 70px;
-  gap: 0;
   padding: 0;
   flex-direction: column;
   background-color: #041c32;
-  width: 100%;
+  width: 100vw;
   transition: 0.3s;
 }
 
@@ -74,12 +74,13 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
-  font-family: "Karla", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  cursor: pointer;
+  margin-bottom: 1rem;
   height: 40px;
   width: 200px;
+  font-family: "Karla", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
   border: none;
   border-radius: 6px;
   background-color: #ecb365;
@@ -117,15 +118,15 @@ header {
   cursor: pointer;
 }
 
-.hamburger .active .bar:nth-child(2) {
+.hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 
-.hamburger .active .bar:nth-child(1) {
+.hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
 
-.hamburger .active .bar:nth-child(3) {
+.hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 

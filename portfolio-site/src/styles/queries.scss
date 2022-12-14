@@ -15,16 +15,19 @@ $large: 1200px;
     width: auto;
   }
 
+  .nav {
+    width: 1400px;
+  }
+
   .hamburger {
     display: none;
   }
 
   .download-btn {
-    font-size: 1.2rem;
-    font-weight: 600;
     gap: 0.5rem;
     height: 50px;
     width: 100px;
+    margin: 0;
   }
 
   /* HERO */
