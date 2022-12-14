@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,6 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  /* background-color: #F1F1F1; */
   background-color: white;
 }
 
@@ -24,7 +23,7 @@ header {
   justify-content: center;
   width: 100vw;
   padding: 0 24px;
-  background-color: #041C32;
+  background-color: #041c32;
 }
 
 .nav {
@@ -44,7 +43,7 @@ header {
   gap: 0;
   padding: 0;
   flex-direction: column;
-  background-color: #041C32;
+  background-color: #041c32;
   width: 100%;
   transition: 0.3s;
 }
@@ -65,22 +64,17 @@ header {
 }
 
 .menu__item-link:hover {
-  color: #ECB365;
+  color: #ecb365;
   padding-bottom: 5px;
-  border-bottom: #ECB365 solid 3px;
+  border-bottom: #ecb365 solid 3px;
 }
 
-
-
-
-
-/* NAV Hamburger */
 .download-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
@@ -88,7 +82,7 @@ header {
   width: 200px;
   border: none;
   border-radius: 6px;
-  background-color: #ECB365;
+  background-color: #ecb365;
   color: black;
 }
 
@@ -104,9 +98,10 @@ header {
   background-color: transparent;
   transition: all 0.3s ease-in-out;
   color: white;
-  border: #ECB365 solid 3px;
+  border: #ecb365 solid 3px;
 }
 
+/* NAV Hamburger */
 .bar {
   display: block;
   width: 25px;
@@ -122,15 +117,15 @@ header {
   cursor: pointer;
 }
 
-.hamburger.active .bar:nth-child(2) {
+.hamburger .active .bar:nth-child(2) {
   opacity: 0;
 }
 
-.hamburger.active .bar:nth-child(1) {
+.hamburger .active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
 
-.hamburger.active .bar:nth-child(3) {
+.hamburger .active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 
@@ -191,7 +186,6 @@ header {
   width: 100vw;
   max-width: 1400px;
   padding: 0 1rem;
-
 }
 
 .tech-icons {
@@ -226,13 +220,12 @@ header {
   padding: 0 2rem;
 }
 
-
 /* FOOTER */
 .footer {
   border: red 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:auto; 
+  margin-top: auto;
   width: 100%;
 }
